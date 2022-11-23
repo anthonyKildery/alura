@@ -69,6 +69,14 @@ class PatrocinadoresAlura extends WP_Widget {
 
     public function widget($args, $instance)
     {
-        
+        ?>
+            <section class="patrocinadores-principais">
+                <h3 class="titulo-patrocinadores">Patrocinadores</h3>
+                <ul class="lista-patrocinadores">
+                
+                
+                </ul>
+            </section>
+        <?php
     }
 }
